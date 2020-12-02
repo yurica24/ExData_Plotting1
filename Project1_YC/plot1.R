@@ -1,7 +1,5 @@
 library("data.table")
 
-  setwd("C:/Users/Yuri Castro/OneDrive/Yuri/Cursos/2020/Coursera/4to curso/Proyecto/ExData_Plotting1/Project1_YC")
-
 #Reads in data from file then subsets data for specified dates
 powerDT <- data.table::fread(input = "household_power_consumption.txt"
                              , na.strings="?"
